@@ -359,9 +359,6 @@ class Timegan:
             restore_path = os.path.join(restore_dir, f'itt_{restore_iteration}_ins_D.pth.tar')
             logger.info('Restoring parameters from {}'.format(restore_path))
             utils.load_checkpoint(restore_path, self.D, self.D_optim)
-            restore_path = os.path.join(restore_dir, f'itt_{restore_iteration}_loss.npy')
-            if restore_iteration > -1:
-                loss_summary[: restore_iteration + 1] = np.load(restore_path)
 
         # 3. Joint Training
         logger.info('Start Joint Training')
