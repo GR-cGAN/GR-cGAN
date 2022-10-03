@@ -1,0 +1,17 @@
+{
+  "hidden_dim": 30,
+  "num_layers": 3,
+  "iterations": 50000,
+  "batch_size": 128,
+  "dropout": 0.1,
+  "gamma": 1,
+  "z_dim": 12,
+  "learning_rate": 1e-3,
+  "module": "gru",
+  "save_iteration": 1000,
+  "num_loss": 11,
+  "lambda_gp": 100,
+  "max_kl_weight": 0.0001,
+  "vae_hidden_dim": 20,
+  "vae_z_dim": 30
+}

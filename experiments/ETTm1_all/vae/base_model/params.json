@@ -1,0 +1,10 @@
+{
+  "hidden_dim": 24,
+  "iterations": 50000,
+  "batch_size": 128,
+  "learning_rate": 1e-3,
+  "save_iteration": 1000,
+  "z_dim": 50,
+  "num_loss": 3,
+  "max_kl_weight": 0.01
+}

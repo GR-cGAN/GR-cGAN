@@ -1,0 +1,11 @@
+{
+  "hidden_dim": 5,
+  "iterations": 50000,
+  "batch_size": 128,
+  "pred_batch_size": 1024,
+  "num_layers": 2,
+  "dropout": 0.1,
+  "learning_rate": 1e-3,
+  "metric_iteration": 10,
+  "test_itt": 200
+}

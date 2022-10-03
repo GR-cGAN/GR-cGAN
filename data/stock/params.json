@@ -1,0 +1,10 @@
+{
+  "name": "stock_data.csv",
+  "raw_data_path": "./data/raw_data/stock/",
+  "z_dim": 24,
+  "input_dim": 6,
+  "seq_len": 24,
+  "dim_names": ["Open", "High", "Low", "Close", "Adj_Close", "Volume"],
+  "disc_judge_multiplier": 1,
+  "pred_judge_multiplier": 100
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ETTm1.csv",
+  "raw_data_path": "./data/raw_data/ETTm1/",
+  "z_dim": 30,
+  "input_dim": 7,
+  "seq_len": 72,
+  "stride_size": 1,
+  "disc_judge_multiplier": 1,
+  "pred_judge_multiplier": 10,
+  "dim_names": ["HUFL", "HULL", "MUFL", "MULL", "LUFL", "LULL", "OT"]
+}
