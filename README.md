@@ -26,6 +26,8 @@ discriminator model such as RNNs or Transformers.
 Note that network parameters should be optimized for different datasets.
 
 ### Example command
+First, place ETTm1.csv at './data/raw_data/ETTm1/ETTm1.csv'.
+
 For the ease of reimplementation, we included saved model weights in this repo. You can 
 simply run
 ```shell
